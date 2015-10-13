@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+body{
+	background: #feedde;
+}
+
+#container{
+	width: 940px;
+	height: 1000px;
+	background: #ffffff;
+	margin:0 auto;
+}
+
+header{
+	width: 900px;
+	height: 100px;
+	background: #eeeeee;
+	margin: 0 auto;
+}
+
+main{
+	width: 100%;
+	background:#b0c4de;
+}
+
+#infomation{
+	width: 920px;
+	height: 260px;
+	background: #778899;
+	margin: 0 auto;
+}
+
+#infomation-l{
+	width: 600px;
+	height: 200px;
+	float: left;
+	border: 1px solid;
+}
+
+
+#infomation-r{
+	width: 268px;
+	height: 200px;
+	background: #008b8b;
+	float: right;
+}
