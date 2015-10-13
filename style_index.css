@@ -20,9 +20,33 @@ body{
 
 header{
 	width: 900px;
-	height: 100px;
+	height: 65px;
 	background: #eeeeee;
 	margin: 0 auto;
+}
+
+#head-img{
+	width: 265px;
+	height: 60px;
+	float: left;
+}
+
+#head-r{
+	width: 620px;
+	border: 1px solid;
+	float: right;
+}
+
+#head-text{
+	width: 100%;
+	height: 30px;
+	background: #f5deb3;
+}
+
+#head-nav{
+	width: 100%;
+	height: 30px;
+	background: #d2b48c;
 }
 
 main{
@@ -35,6 +59,7 @@ main{
 	height: 260px;
 	background: #778899;
 	margin: 0 auto;
+	position: relative;
 }
 
 #infomation-l{
@@ -44,10 +69,36 @@ main{
 	border: 1px solid;
 }
 
-
 #infomation-r{
 	width: 268px;
 	height: 200px;
 	background: #008b8b;
 	float: right;
+}
+
+#product{
+	width: 900px;
+	height: 640px;
+	margin: 0 auto;
+	border: 1px solid;
+}
+
+#pic_up-area{
+	width: 307px;
+	height: 600px;
+	background: #e69545;
+	float: left;
+}
+
+#hot-product-area{
+	width: 555px;
+	height: 600px;
+	border: 1px solid;
+	float: right;
+}
+
+footer{
+	widows: 100%;
+	height: 40px;
+	background: #99540f;
 }
