@@ -29,7 +29,7 @@ p{
 	margin:0 auto;
 }
 
-/*メインヘッダー*/
+/**********ヘッダー**********/
 
 header#main-header{
 	width: 900px;
@@ -65,7 +65,9 @@ header#main-header{
 	position: relative;
 	top: 8px;
 }
-/*ヘッダーナビ*/
+/******************************/
+
+/**********ヘッダーナビ**********/
 #head-nav{
 	width: 100%;
 	height: 40px;
@@ -80,7 +82,7 @@ nav{
 }
 
 nav li{
-	height: 10px;/**/
+	height: 10px;
 	vertical-align: middle;
 	display: table-cell;
 	text-align: center;
@@ -109,7 +111,9 @@ nav li a:hover{
 	color: #ffffff;
 	background-color: #ff8000;
 }
+/******************************/
 
+/**********フッター**********/
 footer{
 	widows: 100%;
 	height: 39px;
@@ -123,17 +127,21 @@ small{
 	position: relative;
 	top: 5px;
 }
+/******************************/
+
+/*******************************************************/
+/********************style_index.css********************/
+/*******************************************************/
 
 
-/**********style_index.css**********/
-
-main{
+main#index{
 	width: 920px;
 	margin: 20px auto 0px auto;
 	background: #ffffff;
 	background: url(lesson2/bg_img/main-back.png) no-repeat;
 }
 
+/**********インフォメーションエリア**********/
 #infomation{
 	width: 920px;
 	height: 305px;
@@ -180,7 +188,7 @@ main{
 	background-image: url(lesson2/bg_img/icon3.png);
 	background-repeat: no-repeat;
 	position: relative;
-	background-position: 5px 5px;
+	background-position: 2px 3px;
 }
 
 .new_infomation p{
@@ -194,13 +202,16 @@ main{
 	text-align: right;
 	color: #696969;
 }
+/********************/
 
+/**********商品エリア**********/
 #product{
 	width: 900px;
 	height: 550px;
 	margin: 40px auto 0px auto;
 }
 
+/**********ピックアップコーナー**********/
 #pic_up-area{
 	width: 307px;
 	height: 500px;
@@ -226,7 +237,9 @@ main{
 #pic_up-box img{
 	margin: 10px 0px 0px 0px;
 }
+/********************/
 
+/**********人気商品コーナー**********/
 #hot-product-area{
 	width: 555px;
 	margin-right: 5px;
@@ -288,24 +301,28 @@ main{
 	padding: 0px 5px 0px 10px;
 	float: right;
 }
+/********************/
+/********************/
 
+/**************************************************************/
+/********************style_saisin-jyoho.css********************/
+/**************************************************************/
 
-/**********style_saisin-jyoho.css**********/
-
-article{
+article#saisin{
 	width: 900px;
 	height: 500px;
 	margin: 30px auto 0px auto;
 }
 
+/**********共有タイトルスタイル**********/
 #head-share{
+	color: #ffffff;
 	background-color: #ff8000;
 	padding: 8px 0px 8px 0px;
 }
 
 #head-share h2{
 	background: #ff8000;
-	color: #ffffff;
 	margin-right: 360px;
 	text-indent: 24px;
 	background-image: url(lesson2/bg_img/icon1.png);
@@ -313,8 +330,10 @@ article{
 	background-position: 4px 4px;
 	float: left;
 }
+/********************/
 
-section{
+/**********セクション**********/
+section.saisin{
 	width: 100%;
 	border-bottom: 1px dotted #000000;
 	box-sizing: border-box;
@@ -322,21 +341,66 @@ section{
 	line-height: 18px;
 	line-height: 20px;
 }
-/*first-childの使い方がよくわからないよ～～～～～～～～～*/
-article section:first-child{
-	border: 1px solid;
-}
 
-section h3{
+section.saisin h3{
 	padding-left: 20px;
 	background-image: url(lesson2/bg_img/icon3.png);
 	background-repeat: no-repeat;
 	position: relative;
-	background-position: 5px 5px;
+	background-position: 5px 3px;
 }
 
-section P{
+section.saisin P{
 	color: #222222;
 	padding-left: 20px;
 }
+/********************/
 
+/***************************************************************/
+/********************style_shohin-shokai.css********************/
+/***************************************************************/
+
+main#shohin-shokai{
+	width: 900px;
+	height: 2000px;
+	margin: 30px auto 0px auto;
+	border: 1px solid #ff0000;
+}
+
+#side-navigation{
+	width:200px;
+	height: 300px;
+	border: 1px solid #ffaf00;
+	float: left;
+}
+
+article#shohin-shokai{
+	width: 600px;
+	height: auto;
+	border: 1px solid #0000ff;
+	float: right;
+}
+
+section.shohin-shokai{
+	width: 100%;
+	height: auto;
+}
+
+div.shohin-shokai{
+	width: 100%;
+	height: 200px;
+	border: 1px solid #00ff00;
+}
+
+div.shohin-shokai .shohin-shokai_img{
+	width: 230px;
+	height: 150px;
+	float: left;
+}
+
+div.shohin-shokai .shohin-shokai_text{
+	width: 350px;
+	height: auto;
+	border: 1px solid;
+	float: right;
+}
