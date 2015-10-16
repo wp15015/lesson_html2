@@ -1,3 +1,7 @@
+/****************************************************/
+/********************共通部分.css********************/
+/****************************************************/
+
 *{
 	margin: 0;
 	padding: 0;
@@ -274,13 +278,13 @@ main#index{
 	table-layout: fixed;
 	padding: 10px 0px 10px 0px;
 }
-
-.row_first{
+/*考え中*/
+#hot-product-area div.hot-product-row:nth-child(2){
 	border-top: 2px solid #666666;
 	border-bottom: 1px dotted #000000;
 }
 
-.row_last{
+#hot-product-area div.hot-product-row:last-child{
 	border-top: 1px dotted #000000;
 }
 
@@ -322,13 +326,22 @@ article#saisin{
 }
 
 #head-share h2{
-	background: #ff8000;
-	margin-right: 360px;
+//	margin-right: 360px;
 	text-indent: 24px;
 	background-image: url(lesson2/bg_img/icon1.png);
 	background-repeat: no-repeat;
 	background-position: 4px 4px;
 	float: left;
+}
+
+#head-share p{
+	float: right;
+	margin: 3px 10px 0px 0px;
+}
+
+#head-share-bottom-border{
+	position: relative;
+	top: 1px;
 }
 /********************/
 
@@ -362,23 +375,48 @@ section.saisin P{
 
 main#shohin-shokai{
 	width: 900px;
-	height: 2000px;
 	margin: 30px auto 0px auto;
-	border: 1px solid #ff0000;
 }
 
 #side-navigation{
-	width:200px;
-	height: 300px;
-	border: 1px solid #ffaf00;
+	width:240px;
+	height: auto;
+	border: 1px solid #ff8000;
 	float: left;
+	margin: 20px 0px 0px 15px;
+}
+
+#side-navigation h3{
+	font-size: 15px;
+	color: #ffffff;
+	background-color: #ff8000;
+	padding-left: 10px;
+}
+
+#side-navigation ul{
+	list-style-type: none;
+}
+
+#side-navigation ul li{
+	font-size: 13px;
+	line-height: 15px;
+	padding: 7px 20px 7px 20px;
+	border-bottom: 1px dotted #000000;
+	background-image: url(lesson2/bg_img/icon4.png);
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: 5px 10px;
+}
+
+#side-navigation ul li:last-child{
+	border: 0px;
 }
 
 article#shohin-shokai{
-	width: 600px;
+	width: 620px;
 	height: auto;
-	border: 1px solid #0000ff;
 	float: right;
+	margin-top: 20px;
 }
 
 section.shohin-shokai{
@@ -386,10 +424,24 @@ section.shohin-shokai{
 	height: auto;
 }
 
+section div.shohin-shokai:last-child{
+	margin-bottom: 40px;
+}
+
+section.shohin-shokai h3{
+	background-color: #d3d3d3;
+	color: #ff8000;
+	font-size: 15px;
+	text-indent: 25px;
+	background-image: url(lesson2/bg_img/icon1a.png);
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: 5px 3px;
+}
+
 div.shohin-shokai{
 	width: 100%;
-	height: 200px;
-	border: 1px solid #00ff00;
+	margin-top: 15px;
 }
 
 div.shohin-shokai .shohin-shokai_img{
@@ -399,8 +451,19 @@ div.shohin-shokai .shohin-shokai_img{
 }
 
 div.shohin-shokai .shohin-shokai_text{
-	width: 350px;
+	width: 370px;
 	height: auto;
-	border: 1px solid;
 	float: right;
+}
+
+.shohin-shokai_text p{
+	font-size: 13px;
+	line-height: 22px;
+}
+
+.shohin-shokai_text span{
+	color: #800000;
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
 }
