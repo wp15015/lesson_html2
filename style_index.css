@@ -378,6 +378,7 @@ main#shohin-shokai{
 	margin: 30px auto 0px auto;
 }
 
+/**********サイドナビゲーション**********/
 #side-navigation{
 	width:240px;
 	height: auto;
@@ -411,7 +412,9 @@ main#shohin-shokai{
 #side-navigation ul li:last-child{
 	border: 0px;
 }
+/******************************/
 
+/**********商品紹介（右側）**********/
 article#shohin-shokai{
 	width: 620px;
 	height: auto;
@@ -467,3 +470,95 @@ div.shohin-shokai .shohin-shokai_text{
 	font-weight: bold;
 	display: block;
 }
+/******************************/
+
+/***************************************************************/
+/********************style_staff-shokai.css********************/
+/***************************************************************/
+
+main#staff-shokai_main{
+	width: 900px;
+	margin: 30px auto 0px auto;
+}
+
+section#staff-shokai_section{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px dotted #000000;
+}
+
+section .shokai-img{
+	width: auto;
+	height: auto;
+	float: left;
+	margin-left: 15px;
+}
+
+section .shokai-img img{
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+section:nth-child(2n) .shokai-img{
+	float: right;
+	margin-right: 15px;
+}
+
+section .shokai-text{
+	width: 600px;
+	height: auto;
+	float: right;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+section:first-child .shokai-text{
+	width: 400px;
+}
+
+section:nth-child(2n) .shokai-text{
+	float: left;
+	margin-left: 15px;
+}
+
+section .shokai-text h3{
+	text-indent: 16px;
+	background-image: url(lesson2/bg_img/icon3.png);
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+}
+
+/*****************************************************/
+/********************レスポンシブデザイン********************/
+/*****************************************************/
+/*
+@media only screen and(max-width:768px){
+	body{
+		background-color: #ff8000;
+	}
+	header{
+		background-color: #ff8000;
+	}
+	img{
+		width: 200px;
+	}
+}
+*/
+
+/* =====PC用の設定===== */
+/*
+@media only screen and (min-width:900px){
+	#pic_up-area{
+		background-color: #ffff00;
+	}
+}
+*/
+/* =====タブレット用の設定===== */
+/*
+@media only screen and (min-width:600px) and (max-width: 899px) {
+	#pic_up-area{
+		background-color: #0000ff;
+	}
+}
+*/
